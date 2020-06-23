@@ -27,7 +27,18 @@ DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 ①当ファイルをダウンロード後、ファイルをターミナル(windowsの場合、コマンドプロンプト)に貼り付け
 　(貼り付け前にcdをつけること)
  
+ <img width="1440" alt="①" src="https://user-images.githubusercontent.com/62335149/85387272-92683b80-b57f-11ea-836c-5782695986bc.png">
+
+ 
 ②コマンド「yarn start」を入力し、enterキー押下。
+
+<img width="1440" alt="②-1" src="https://user-images.githubusercontent.com/62335149/85387340-a9a72900-b57f-11ea-9fde-51d4f52c4a3a.png">
+
+<img width="1440" alt="②-2" src="https://user-images.githubusercontent.com/62335149/85387738-2afebb80-b580-11ea-9823-20fec6bd485b.png">
+
+<img width="1440" alt="③" src="https://user-images.githubusercontent.com/62335149/85388395-048d5000-b581-11ea-98cb-3725c717ef93.png">
+
+
 ③webブラウザ上でログイン画面が起動。
 # Note
  
