@@ -39,6 +39,15 @@ const Room = () => {
         ])
     }
 
+    const deleteSubmit = (e) => {
+        e.preventDefault()
+        firebase.firestore().collection('messages')
+            .delete(
+                {
+                    date: new Date()
+                })
+    }
+
 
     return (
         <>
@@ -63,6 +72,12 @@ const Room = () => {
                 />
                 <button type="submit">送信</button>
             </form>
+
+            {/* 6/23削除ボタン一旦はとめます */}
+            {/* <from onSnapshot={}>
+
+                <button type="submit">削除</button>
+            </from> */}
 
             <button onClick={() => firebase.auth().signOut()}>Logout</button>
 
